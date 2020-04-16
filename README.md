@@ -2,8 +2,8 @@
 
 ## Introduction
 
-This is a small Python3 based application the converts JSON based events to 
-**Pickle** based metrics for **Graphite**.
+This is a small Python3 based application that converts **JSON** based *events* to 
+**Pickle** based *metrics* for **Graphite**.
 
 The program listens on port 8000 on every path, ingest JSON data, converts them
 to pickle and opens a socket to Graphite to send the pickle serialised metrics.
@@ -24,7 +24,7 @@ For example...
 }
 ```
 
-... will be converted to:
+... will be converted to ...
 
 ```
 bigip.system.tmmTraffic.bitsIn : 913320
@@ -36,7 +36,7 @@ pickle format can be found in the Graphite [documentation](https://graphite.read
 
 ## How to run
 
-The docker image is available on Dockerhub 
+The docker image is available on Dockerhub at
 
 https://hub.docker.com/repository/docker/boeboe/graphite-events-metrics
 
@@ -46,7 +46,11 @@ In order to run the docker image
 # docker run --name jsontopickle  -p 8008:8000 -e GRAPHITE_ADDRESS=<a.b.c.d> -e GRAPHITE_PICKLE_PORT='2004' boeboe/graphite-events-metrics
 ```
 
- - port 8000 is the port on within the container (fixed)
+ - port 8000 is the port within the container (fixed)
  - port 8008 is the port exposed to the host system (up to your preference)
  - env vars **GRAPHITE_ADDRESS** and **GRAPHITE_PICKLE_PORT** are mandatory
 
+## Note
+
+This container is purely used for demo purposes and not meant for production 
+environments at all. There is barely any error handling implemented.
