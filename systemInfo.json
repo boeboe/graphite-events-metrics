@@ -1,0 +1,1062 @@
+{
+    "system": {
+        "hostname": "ip-10-0-0-29.eu-west-1.compute.internal",
+        "machineId": "8efc1eeb-0874-40f9-99b9-a054dba1a48b",
+        "version": "14.0.1",
+        "versionBuild": "0.0.14",
+        "location": "missing data",
+        "description": "missing data",
+        "marketingName": "BIG-IP Virtual Edition",
+        "platformId": "Z100",
+        "chassisId": "4ca220ec-0765-4c2c-7e065a492481",
+        "baseMac": "06:C8:C9:71:B7:E8",
+        "callBackUrl": "https://10.0.0.29",
+        "configReady": "yes",
+        "licenseReady": "yes",
+        "provisionReady": "yes",
+        "syncMode": "standalone",
+        "syncColor": "green",
+        "syncStatus": "Standalone",
+        "syncSummary": " ",
+        "failoverStatus": "ACTIVE",
+        "failoverColor": "green",
+        "systemTimestamp": "2020-04-16T09:14:40.000Z",
+        "cpu": 2,
+        "memory": 42,
+        "tmmCpu": 0,
+        "tmmMemory": 6,
+        "tmmTraffic": {
+            "clientSideTraffic.bitsIn": 913320,
+            "clientSideTraffic.bitsOut": 5136696,
+            "serverSideTraffic.bitsIn": 899848,
+            "serverSideTraffic.bitsOut": 5129656
+        },
+        "diskStorage": {
+            "/": {
+                "1024-blocks": "436342",
+                "Capacity": "70%",
+                "name": "/"
+            },
+            "/dev/shm": {
+                "1024-blocks": "3956680",
+                "Capacity": "1%",
+                "name": "/dev/shm"
+            },
+            "/config": {
+                "1024-blocks": "3269592",
+                "Capacity": "4%",
+                "name": "/config"
+            },
+            "/usr": {
+                "1024-blocks": "4136432",
+                "Capacity": "84%",
+                "name": "/usr"
+            },
+            "/var": {
+                "1024-blocks": "3096336",
+                "Capacity": "37%",
+                "name": "/var"
+            },
+            "/shared": {
+                "1024-blocks": "20642428",
+                "Capacity": "2%",
+                "name": "/shared"
+            },
+            "/var/log": {
+                "1024-blocks": "3023760",
+                "Capacity": "3%",
+                "name": "/var/log"
+            },
+            "/appdata": {
+                "1024-blocks": "25717852",
+                "Capacity": "4%",
+                "name": "/appdata"
+            },
+            "/shared/rrd.1.2": {
+                "1024-blocks": "3956680",
+                "Capacity": "1%",
+                "name": "/shared/rrd.1.2"
+            },
+            "/var/run": {
+                "1024-blocks": "3956680",
+                "Capacity": "1%",
+                "name": "/var/run"
+            },
+            "/var/tmstat": {
+                "1024-blocks": "3956680",
+                "Capacity": "1%",
+                "name": "/var/tmstat"
+            },
+            "/var/prompt": {
+                "1024-blocks": "4096",
+                "Capacity": "1%",
+                "name": "/var/prompt"
+            },
+            "/var/loipc": {
+                "1024-blocks": "3956680",
+                "Capacity": "0%",
+                "name": "/var/loipc"
+            }
+        },
+        "diskLatency": {
+            "xvda": {
+                "r/s": "60.63",
+                "w/s": "10.86",
+                "%util": "9.31",
+                "name": "xvda"
+            },
+            "dm-0": {
+                "r/s": "0.08",
+                "w/s": "0.00",
+                "%util": "0.01",
+                "name": "dm-0"
+            },
+            "dm-1": {
+                "r/s": "0.25",
+                "w/s": "7.96",
+                "%util": "0.21",
+                "name": "dm-1"
+            },
+            "dm-2": {
+                "r/s": "0.09",
+                "w/s": "50.41",
+                "%util": "0.42",
+                "name": "dm-2"
+            },
+            "dm-3": {
+                "r/s": "0.28",
+                "w/s": "1.52",
+                "%util": "0.18",
+                "name": "dm-3"
+            },
+            "dm-4": {
+                "r/s": "5.59",
+                "w/s": "16.86",
+                "%util": "0.31",
+                "name": "dm-4"
+            },
+            "dm-5": {
+                "r/s": "7.60",
+                "w/s": "2.27",
+                "%util": "1.58",
+                "name": "dm-5"
+            },
+            "dm-6": {
+                "r/s": "48.03",
+                "w/s": "0.01",
+                "%util": "7.35",
+                "name": "dm-6"
+            },
+            "dm-7": {
+                "r/s": "0.41",
+                "w/s": "3.34",
+                "%util": "0.25",
+                "name": "dm-7"
+            },
+            "dm-8": {
+                "r/s": "3.68",
+                "w/s": "34.48",
+                "%util": "0.93",
+                "name": "dm-8"
+            }
+        },
+        "networkInterfaces": {
+            "1.0": {
+                "counters.bitsIn": 5222424,
+                "counters.bitsOut": 1008840,
+                "status": "up",
+                "name": "1.0"
+            },
+            "mgmt": {
+                "counters.bitsIn": 226827960,
+                "counters.bitsOut": 5413704,
+                "status": "up",
+                "name": "mgmt"
+            }
+        },
+        "provisioning": {
+            "afm": {
+                "name": "afm",
+                "level": "none"
+            },
+            "am": {
+                "name": "am",
+                "level": "none"
+            },
+            "apm": {
+                "name": "apm",
+                "level": "none"
+            },
+            "asm": {
+                "name": "asm",
+                "level": "nominal"
+            },
+            "avr": {
+                "name": "avr",
+                "level": "none"
+            },
+            "dos": {
+                "name": "dos",
+                "level": "none"
+            },
+            "fps": {
+                "name": "fps",
+                "level": "none"
+            },
+            "gtm": {
+                "name": "gtm",
+                "level": "none"
+            },
+            "ilx": {
+                "name": "ilx",
+                "level": "none"
+            },
+            "lc": {
+                "name": "lc",
+                "level": "none"
+            },
+            "ltm": {
+                "name": "ltm",
+                "level": "nominal"
+            },
+            "pem": {
+                "name": "pem",
+                "level": "none"
+            },
+            "sslo": {
+                "name": "sslo",
+                "level": "none"
+            },
+            "swg": {
+                "name": "swg",
+                "level": "none"
+            },
+            "urldb": {
+                "name": "urldb",
+                "level": "none"
+            }
+        },
+        "asmState": "undefined",
+        "lastAsmChange": "undefined",
+        "ltmConfigTime": "2020-04-16T09:13:37.000Z"
+    },
+    "virtualServers": {
+        "/Team_A/NginxWebServer/WebServerVIP": {
+            "clientside.bitsIn": 0,
+            "clientside.bitsOut": 0,
+            "clientside.curConns": 0,
+            "destination": "any:80",
+            "availabilityState": "available",
+            "enabledState": "enabled",
+            "name": "/Team_A/NginxWebServer/WebServerVIP",
+            "ipProtocol": "tcp",
+            "mask": "any",
+            "pool": "/Team_A/NginxWebServer/WebServerPool",
+            "profiles": {
+                "/Common/f5-tcp-progressive": {
+                    "name": "/Common/f5-tcp-progressive"
+                },
+                "/Common/http": {
+                    "name": "/Common/http"
+                }
+            },
+            "tenant": "Team_A",
+            "application": "NginxWebServer"
+        }
+    },
+    "pools": {
+        "/Team_A/NginxWebServer/WebServerPool": {
+            "activeMemberCnt": 2,
+            "serverside.bitsIn": 0,
+            "serverside.bitsOut": 0,
+            "serverside.curConns": 0,
+            "availabilityState": "available",
+            "enabledState": "enabled",
+            "name": "/Team_A/NginxWebServer/WebServerPool",
+            "members": {
+                "/Team_A/aws-i-09e8042c82206d63e-private:80": {
+                    "addr": "10.0.0.246",
+                    "port": 80,
+                    "serverside.bitsIn": 0,
+                    "serverside.bitsOut": 0,
+                    "serverside.curConns": 0,
+                    "availabilityState": "available",
+                    "enabledState": "enabled"
+                },
+                "/Team_A/aws-i-072b9de2cebc1d142-private:80": {
+                    "addr": "10.0.0.101",
+                    "port": 80,
+                    "serverside.bitsIn": 0,
+                    "serverside.bitsOut": 0,
+                    "serverside.curConns": 0,
+                    "availabilityState": "available",
+                    "enabledState": "enabled"
+                }
+            },
+            "tenant": "Team_A",
+            "application": "NginxWebServer"
+        }
+    },
+    "ltmPolicies": {},
+    "httpProfiles": {
+        "/Common/http": {
+            "cookiePersistInserts": 0,
+            "getReqs": 0,
+            "maxKeepaliveReq": 0,
+            "numberReqs": 0,
+            "postReqs": 0,
+            "2xxResp": 0,
+            "3xxResp": 0,
+            "4xxResp": 0,
+            "5xxResp": 0,
+            "respLessThan2m": 0,
+            "respGreaterThan2m": 0,
+            "v10Reqs": 0,
+            "v10Resp": 0,
+            "v11Reqs": 0,
+            "v11Resp": 0,
+            "v9Reqs": 0,
+            "v9Resp": 0,
+            "name": "/Common/http",
+            "tenant": "Common"
+        },
+        "/Common/http-explicit": {
+            "cookiePersistInserts": 0,
+            "getReqs": 0,
+            "maxKeepaliveReq": 0,
+            "numberReqs": 0,
+            "postReqs": 0,
+            "2xxResp": 0,
+            "3xxResp": 0,
+            "4xxResp": 0,
+            "5xxResp": 0,
+            "respLessThan2m": 0,
+            "respGreaterThan2m": 0,
+            "v10Reqs": 0,
+            "v10Resp": 0,
+            "v11Reqs": 0,
+            "v11Resp": 0,
+            "v9Reqs": 0,
+            "v9Resp": 0,
+            "name": "/Common/http-explicit",
+            "tenant": "Common"
+        },
+        "/Common/http-transparent": {
+            "cookiePersistInserts": 0,
+            "getReqs": 0,
+            "maxKeepaliveReq": 0,
+            "numberReqs": 0,
+            "postReqs": 0,
+            "2xxResp": 0,
+            "3xxResp": 0,
+            "4xxResp": 0,
+            "5xxResp": 0,
+            "respLessThan2m": 0,
+            "respGreaterThan2m": 0,
+            "v10Reqs": 0,
+            "v10Resp": 0,
+            "v11Reqs": 0,
+            "v11Resp": 0,
+            "v9Reqs": 0,
+            "v9Resp": 0,
+            "name": "/Common/http-transparent",
+            "tenant": "Common"
+        }
+    },
+    "clientSslProfiles": {
+        "/Common/clientssl": {
+            "activeHandshakeRejected": 0,
+            "currentCompatibleConnections": 0,
+            "currentConnections": 0,
+            "currentNativeConnections": 0,
+            "currentActiveHandshakes": 0,
+            "decryptedBytesIn": 0,
+            "decryptedBytesOut": 0,
+            "encryptedBytesIn": 0,
+            "encryptedBytesOut": 0,
+            "fatalAlerts": 0,
+            "handshakeFailures": 0,
+            "peercertInvalid": 0,
+            "peercertNone": 0,
+            "peercertValid": 0,
+            "protocolUses.dtlsv1": 0,
+            "protocolUses.sslv2": 0,
+            "protocolUses.sslv3": 0,
+            "protocolUses.tlsv1": 0,
+            "protocolUses.tlsv1_1": 0,
+            "protocolUses.tlsv1_2": 0,
+            "protocolUses.tlsv1_3": 0,
+            "recordsIn": 0,
+            "recordsOut": 0,
+            "sniRejects": 0,
+            "name": "/Common/clientssl",
+            "tenant": "Common"
+        },
+        "/Common/clientssl-insecure-compatible": {
+            "activeHandshakeRejected": 0,
+            "currentCompatibleConnections": 0,
+            "currentConnections": 0,
+            "currentNativeConnections": 0,
+            "currentActiveHandshakes": 0,
+            "decryptedBytesIn": 0,
+            "decryptedBytesOut": 0,
+            "encryptedBytesIn": 0,
+            "encryptedBytesOut": 0,
+            "fatalAlerts": 0,
+            "handshakeFailures": 0,
+            "peercertInvalid": 0,
+            "peercertNone": 0,
+            "peercertValid": 0,
+            "protocolUses.dtlsv1": 0,
+            "protocolUses.sslv2": 0,
+            "protocolUses.sslv3": 0,
+            "protocolUses.tlsv1": 0,
+            "protocolUses.tlsv1_1": 0,
+            "protocolUses.tlsv1_2": 0,
+            "protocolUses.tlsv1_3": 0,
+            "recordsIn": 0,
+            "recordsOut": 0,
+            "sniRejects": 0,
+            "name": "/Common/clientssl-insecure-compatible",
+            "tenant": "Common"
+        },
+        "/Common/clientssl-secure": {
+            "activeHandshakeRejected": 0,
+            "currentCompatibleConnections": 0,
+            "currentConnections": 0,
+            "currentNativeConnections": 0,
+            "currentActiveHandshakes": 0,
+            "decryptedBytesIn": 0,
+            "decryptedBytesOut": 0,
+            "encryptedBytesIn": 0,
+            "encryptedBytesOut": 0,
+            "fatalAlerts": 0,
+            "handshakeFailures": 0,
+            "peercertInvalid": 0,
+            "peercertNone": 0,
+            "peercertValid": 0,
+            "protocolUses.dtlsv1": 0,
+            "protocolUses.sslv2": 0,
+            "protocolUses.sslv3": 0,
+            "protocolUses.tlsv1": 0,
+            "protocolUses.tlsv1_1": 0,
+            "protocolUses.tlsv1_2": 0,
+            "protocolUses.tlsv1_3": 0,
+            "recordsIn": 0,
+            "recordsOut": 0,
+            "sniRejects": 0,
+            "name": "/Common/clientssl-secure",
+            "tenant": "Common"
+        },
+        "/Common/crypto-server-default-clientssl": {
+            "activeHandshakeRejected": 0,
+            "currentCompatibleConnections": 0,
+            "currentConnections": 0,
+            "currentNativeConnections": 0,
+            "currentActiveHandshakes": 0,
+            "decryptedBytesIn": 0,
+            "decryptedBytesOut": 0,
+            "encryptedBytesIn": 0,
+            "encryptedBytesOut": 0,
+            "fatalAlerts": 0,
+            "handshakeFailures": 0,
+            "peercertInvalid": 0,
+            "peercertNone": 0,
+            "peercertValid": 0,
+            "protocolUses.dtlsv1": 0,
+            "protocolUses.sslv2": 0,
+            "protocolUses.sslv3": 0,
+            "protocolUses.tlsv1": 0,
+            "protocolUses.tlsv1_1": 0,
+            "protocolUses.tlsv1_2": 0,
+            "protocolUses.tlsv1_3": 0,
+            "recordsIn": 0,
+            "recordsOut": 0,
+            "sniRejects": 0,
+            "name": "/Common/crypto-server-default-clientssl",
+            "tenant": "Common"
+        },
+        "/Common/splitsession-default-clientssl": {
+            "activeHandshakeRejected": 0,
+            "currentCompatibleConnections": 0,
+            "currentConnections": 0,
+            "currentNativeConnections": 0,
+            "currentActiveHandshakes": 0,
+            "decryptedBytesIn": 0,
+            "decryptedBytesOut": 0,
+            "encryptedBytesIn": 0,
+            "encryptedBytesOut": 0,
+            "fatalAlerts": 0,
+            "handshakeFailures": 0,
+            "peercertInvalid": 0,
+            "peercertNone": 0,
+            "peercertValid": 0,
+            "protocolUses.dtlsv1": 0,
+            "protocolUses.sslv2": 0,
+            "protocolUses.sslv3": 0,
+            "protocolUses.tlsv1": 0,
+            "protocolUses.tlsv1_1": 0,
+            "protocolUses.tlsv1_2": 0,
+            "protocolUses.tlsv1_3": 0,
+            "recordsIn": 0,
+            "recordsOut": 0,
+            "sniRejects": 0,
+            "name": "/Common/splitsession-default-clientssl",
+            "tenant": "Common"
+        },
+        "/Common/wom-default-clientssl": {
+            "activeHandshakeRejected": 0,
+            "currentCompatibleConnections": 0,
+            "currentConnections": 0,
+            "currentNativeConnections": 0,
+            "currentActiveHandshakes": 0,
+            "decryptedBytesIn": 0,
+            "decryptedBytesOut": 0,
+            "encryptedBytesIn": 0,
+            "encryptedBytesOut": 0,
+            "fatalAlerts": 0,
+            "handshakeFailures": 0,
+            "peercertInvalid": 0,
+            "peercertNone": 0,
+            "peercertValid": 0,
+            "protocolUses.dtlsv1": 0,
+            "protocolUses.sslv2": 0,
+            "protocolUses.sslv3": 0,
+            "protocolUses.tlsv1": 0,
+            "protocolUses.tlsv1_1": 0,
+            "protocolUses.tlsv1_2": 0,
+            "protocolUses.tlsv1_3": 0,
+            "recordsIn": 0,
+            "recordsOut": 0,
+            "sniRejects": 0,
+            "name": "/Common/wom-default-clientssl",
+            "tenant": "Common"
+        }
+    },
+    "serverSslProfiles": {
+        "/Common/apm-default-serverssl": {
+            "activeHandshakeRejected": 0,
+            "currentCompatibleConnections": 0,
+            "currentConnections": 0,
+            "currentNativeConnections": 0,
+            "currentActiveHandshakes": 0,
+            "decryptedBytesIn": 0,
+            "decryptedBytesOut": 0,
+            "encryptedBytesIn": 0,
+            "encryptedBytesOut": 0,
+            "fatalAlerts": 0,
+            "handshakeFailures": 0,
+            "peercertInvalid": 0,
+            "peercertNone": 0,
+            "peercertValid": 0,
+            "protocolUses.dtlsv1": 0,
+            "protocolUses.sslv2": 0,
+            "protocolUses.sslv3": 0,
+            "protocolUses.tlsv1": 0,
+            "protocolUses.tlsv1_1": 0,
+            "protocolUses.tlsv1_2": 0,
+            "protocolUses.tlsv1_3": 0,
+            "recordsIn": 0,
+            "recordsOut": 0,
+            "name": "/Common/apm-default-serverssl",
+            "tenant": "Common"
+        },
+        "/Common/crypto-client-default-serverssl": {
+            "activeHandshakeRejected": 0,
+            "currentCompatibleConnections": 0,
+            "currentConnections": 0,
+            "currentNativeConnections": 0,
+            "currentActiveHandshakes": 0,
+            "decryptedBytesIn": 0,
+            "decryptedBytesOut": 0,
+            "encryptedBytesIn": 0,
+            "encryptedBytesOut": 0,
+            "fatalAlerts": 0,
+            "handshakeFailures": 0,
+            "peercertInvalid": 0,
+            "peercertNone": 0,
+            "peercertValid": 0,
+            "protocolUses.dtlsv1": 0,
+            "protocolUses.sslv2": 0,
+            "protocolUses.sslv3": 0,
+            "protocolUses.tlsv1": 0,
+            "protocolUses.tlsv1_1": 0,
+            "protocolUses.tlsv1_2": 0,
+            "protocolUses.tlsv1_3": 0,
+            "recordsIn": 0,
+            "recordsOut": 0,
+            "name": "/Common/crypto-client-default-serverssl",
+            "tenant": "Common"
+        },
+        "/Common/pcoip-default-serverssl": {
+            "activeHandshakeRejected": 0,
+            "currentCompatibleConnections": 0,
+            "currentConnections": 0,
+            "currentNativeConnections": 0,
+            "currentActiveHandshakes": 0,
+            "decryptedBytesIn": 0,
+            "decryptedBytesOut": 0,
+            "encryptedBytesIn": 0,
+            "encryptedBytesOut": 0,
+            "fatalAlerts": 0,
+            "handshakeFailures": 0,
+            "peercertInvalid": 0,
+            "peercertNone": 0,
+            "peercertValid": 0,
+            "protocolUses.dtlsv1": 0,
+            "protocolUses.sslv2": 0,
+            "protocolUses.sslv3": 0,
+            "protocolUses.tlsv1": 0,
+            "protocolUses.tlsv1_1": 0,
+            "protocolUses.tlsv1_2": 0,
+            "protocolUses.tlsv1_3": 0,
+            "recordsIn": 0,
+            "recordsOut": 0,
+            "name": "/Common/pcoip-default-serverssl",
+            "tenant": "Common"
+        },
+        "/Common/serverssl": {
+            "activeHandshakeRejected": 0,
+            "currentCompatibleConnections": 0,
+            "currentConnections": 0,
+            "currentNativeConnections": 0,
+            "currentActiveHandshakes": 0,
+            "decryptedBytesIn": 0,
+            "decryptedBytesOut": 0,
+            "encryptedBytesIn": 0,
+            "encryptedBytesOut": 0,
+            "fatalAlerts": 0,
+            "handshakeFailures": 0,
+            "peercertInvalid": 0,
+            "peercertNone": 0,
+            "peercertValid": 0,
+            "protocolUses.dtlsv1": 0,
+            "protocolUses.sslv2": 0,
+            "protocolUses.sslv3": 0,
+            "protocolUses.tlsv1": 0,
+            "protocolUses.tlsv1_1": 0,
+            "protocolUses.tlsv1_2": 0,
+            "protocolUses.tlsv1_3": 0,
+            "recordsIn": 0,
+            "recordsOut": 0,
+            "name": "/Common/serverssl",
+            "tenant": "Common"
+        },
+        "/Common/serverssl-insecure-compatible": {
+            "activeHandshakeRejected": 0,
+            "currentCompatibleConnections": 0,
+            "currentConnections": 0,
+            "currentNativeConnections": 0,
+            "currentActiveHandshakes": 0,
+            "decryptedBytesIn": 0,
+            "decryptedBytesOut": 0,
+            "encryptedBytesIn": 0,
+            "encryptedBytesOut": 0,
+            "fatalAlerts": 0,
+            "handshakeFailures": 0,
+            "peercertInvalid": 0,
+            "peercertNone": 0,
+            "peercertValid": 0,
+            "protocolUses.dtlsv1": 0,
+            "protocolUses.sslv2": 0,
+            "protocolUses.sslv3": 0,
+            "protocolUses.tlsv1": 0,
+            "protocolUses.tlsv1_1": 0,
+            "protocolUses.tlsv1_2": 0,
+            "protocolUses.tlsv1_3": 0,
+            "recordsIn": 0,
+            "recordsOut": 0,
+            "name": "/Common/serverssl-insecure-compatible",
+            "tenant": "Common"
+        },
+        "/Common/splitsession-default-serverssl": {
+            "activeHandshakeRejected": 0,
+            "currentCompatibleConnections": 0,
+            "currentConnections": 0,
+            "currentNativeConnections": 0,
+            "currentActiveHandshakes": 0,
+            "decryptedBytesIn": 0,
+            "decryptedBytesOut": 0,
+            "encryptedBytesIn": 0,
+            "encryptedBytesOut": 0,
+            "fatalAlerts": 0,
+            "handshakeFailures": 0,
+            "peercertInvalid": 0,
+            "peercertNone": 0,
+            "peercertValid": 0,
+            "protocolUses.dtlsv1": 0,
+            "protocolUses.sslv2": 0,
+            "protocolUses.sslv3": 0,
+            "protocolUses.tlsv1": 0,
+            "protocolUses.tlsv1_1": 0,
+            "protocolUses.tlsv1_2": 0,
+            "protocolUses.tlsv1_3": 0,
+            "recordsIn": 0,
+            "recordsOut": 0,
+            "name": "/Common/splitsession-default-serverssl",
+            "tenant": "Common"
+        },
+        "/Common/wom-default-serverssl": {
+            "activeHandshakeRejected": 0,
+            "currentCompatibleConnections": 0,
+            "currentConnections": 0,
+            "currentNativeConnections": 0,
+            "currentActiveHandshakes": 0,
+            "decryptedBytesIn": 0,
+            "decryptedBytesOut": 0,
+            "encryptedBytesIn": 0,
+            "encryptedBytesOut": 0,
+            "fatalAlerts": 0,
+            "handshakeFailures": 0,
+            "peercertInvalid": 0,
+            "peercertNone": 0,
+            "peercertValid": 0,
+            "protocolUses.dtlsv1": 0,
+            "protocolUses.sslv2": 0,
+            "protocolUses.sslv3": 0,
+            "protocolUses.tlsv1": 0,
+            "protocolUses.tlsv1_1": 0,
+            "protocolUses.tlsv1_2": 0,
+            "protocolUses.tlsv1_3": 0,
+            "recordsIn": 0,
+            "recordsOut": 0,
+            "name": "/Common/wom-default-serverssl",
+            "tenant": "Common"
+        }
+    },
+    "sslCerts": {
+        "ca-bundle.crt": {
+            "expirationDate": 1893455999,
+            "expirationString": "2029-12-31T23:59:59.000Z",
+            "issuer": "CN=Starfield Services Root Certificate Authority,OU=http://certificates.starfieldtech.com/repository/,O=Starfield Technologies, Inc.,L=Scottsdale,ST=Arizona,C=US",
+            "subject": "CN=Starfield Services Root Certificate Authority,OU=http://certificates.starfieldtech.com/repository/,O=Starfield Technologies, Inc.,L=Scottsdale,ST=Arizona,C=US",
+            "name": "ca-bundle.crt"
+        },
+        "default.crt": {
+            "email": "root@localhost.localdomain",
+            "expirationDate": 1902384493,
+            "expirationString": "2030-04-14T08:08:13.000Z",
+            "issuer": "emailAddress=root@localhost.localdomain,CN=localhost.localdomain,OU=IT,O=MyCompany,L=Seattle,ST=WA,C=US",
+            "subject": "emailAddress=root@localhost.localdomain,CN=localhost.localdomain,OU=IT,O=MyCompany,L=Seattle,ST=WA,C=US",
+            "name": "default.crt"
+        },
+        "f5-ca-bundle.crt": {
+            "expirationDate": 1922896554,
+            "expirationString": "2030-12-07T17:55:54.000Z",
+            "issuer": "CN=Entrust Root Certification Authority - G2,OU=(c) 2009 Entrust, Inc. - for authorized use only,OU=See www.entrust.net/legal-terms,O=Entrust, Inc.,C=US",
+            "subject": "CN=Entrust Root Certification Authority - G2,OU=(c) 2009 Entrust, Inc. - for authorized use only,OU=See www.entrust.net/legal-terms,O=Entrust, Inc.,C=US",
+            "name": "f5-ca-bundle.crt"
+        },
+        "f5-irule.crt": {
+            "email": "support@f5.com",
+            "expirationDate": 1815944413,
+            "expirationString": "2027-07-18T21:00:13.000Z",
+            "issuer": "emailAddress=support@f5.com,CN=support.f5.com,OU=Product Development,O=F5 Networks,L=Seattle,ST=Washington,C=US",
+            "subject": "emailAddress=support@f5.com,CN=support.f5.com,OU=Product Development,O=F5 Networks,L=Seattle,ST=Washington,C=US",
+            "name": "f5-irule.crt"
+        }
+    },
+    "networkTunnels": {
+        "/Common/http-tunnel": {
+            "hcInBroadcastPkts": 0,
+            "hcInMulticastPkts": 0,
+            "hcInOctets": 0,
+            "hcInUcastPkts": 0,
+            "hcOutBroadcastPkts": 0,
+            "hcOutMulticastPkts": 0,
+            "hcOutOctets": 0,
+            "hcOutUcastPkts": 0,
+            "inDiscards": 0,
+            "inErrors": 0,
+            "inUnknownProtos": 0,
+            "outDiscards": 0,
+            "outErrors": 0,
+            "name": "/Common/http-tunnel",
+            "tenant": "Common"
+        },
+        "/Common/socks-tunnel": {
+            "hcInBroadcastPkts": 0,
+            "hcInMulticastPkts": 0,
+            "hcInOctets": 0,
+            "hcInUcastPkts": 0,
+            "hcOutBroadcastPkts": 0,
+            "hcOutMulticastPkts": 0,
+            "hcOutOctets": 0,
+            "hcOutUcastPkts": 0,
+            "inDiscards": 0,
+            "inErrors": 0,
+            "inUnknownProtos": 0,
+            "outDiscards": 0,
+            "outErrors": 0,
+            "name": "/Common/socks-tunnel",
+            "tenant": "Common"
+        }
+    },
+    "deviceGroups": {
+        "/Common/datasync-device-ip-10-0-0-29.eu-west-1.compute.internal-dg": {
+            "commitIdTime": "2020-04-16T16:09:01.000Z",
+            "lssTime": "-",
+            "timeSinceLastSync": "-",
+            "name": "/Common/datasync-device-ip-10-0-0-29.eu-west-1.compute.internal-dg",
+            "type": "sync-only",
+            "tenant": "Common"
+        },
+        "/Common/datasync-global-dg": {
+            "commitIdTime": "2020-04-16T16:07:58.000Z",
+            "lssTime": "-",
+            "timeSinceLastSync": "-",
+            "name": "/Common/datasync-global-dg",
+            "type": "sync-only",
+            "tenant": "Common"
+        },
+        "/Common/device_trust_group": {
+            "commitIdTime": "2020-04-16T16:06:12.000Z",
+            "lssTime": "-",
+            "timeSinceLastSync": "-",
+            "name": "/Common/device_trust_group",
+            "type": "sync-only",
+            "tenant": "Common"
+        },
+        "/Common/gtm": {
+            "commitIdTime": "-",
+            "lssTime": "-",
+            "timeSinceLastSync": "-",
+            "name": "/Common/gtm",
+            "type": "sync-only",
+            "tenant": "Common"
+        }
+    },
+    "iRules": {
+        "/Common/_sys_APM_ExchangeSupport_OA_BasicAuth": {
+            "events": {
+                "RULE_INIT": {
+                    "aborts": 0,
+                    "avgCycles": 27817,
+                    "failures": 0,
+                    "maxCycles": 27817,
+                    "minCycles": 26256,
+                    "priority": 500,
+                    "totalExecutions": 2
+                }
+            },
+            "name": "/Common/_sys_APM_ExchangeSupport_OA_BasicAuth",
+            "tenant": "Common"
+        },
+        "/Common/_sys_APM_ExchangeSupport_OA_NtlmAuth": {
+            "events": {
+                "RULE_INIT": {
+                    "aborts": 0,
+                    "avgCycles": 42133,
+                    "failures": 0,
+                    "maxCycles": 42133,
+                    "minCycles": 39427,
+                    "priority": 500,
+                    "totalExecutions": 2
+                }
+            },
+            "name": "/Common/_sys_APM_ExchangeSupport_OA_NtlmAuth",
+            "tenant": "Common"
+        },
+        "/Common/_sys_APM_ExchangeSupport_helper": {
+            "events": {
+                "HTTP_REQUEST_DATA": {
+                    "aborts": 0,
+                    "avgCycles": 0,
+                    "failures": 0,
+                    "maxCycles": 0,
+                    "minCycles": 0,
+                    "priority": 500,
+                    "totalExecutions": 0
+                }
+            },
+            "name": "/Common/_sys_APM_ExchangeSupport_helper",
+            "tenant": "Common"
+        },
+        "/Common/_sys_APM_ExchangeSupport_main": {
+            "events": {
+                "RULE_INIT": {
+                    "aborts": 0,
+                    "avgCycles": 59343,
+                    "failures": 0,
+                    "maxCycles": 59343,
+                    "minCycles": 51817,
+                    "priority": 500,
+                    "totalExecutions": 2
+                }
+            },
+            "name": "/Common/_sys_APM_ExchangeSupport_main",
+            "tenant": "Common"
+        },
+        "/Common/_sys_APM_MS_Office_OFBA_Support": {
+            "events": {
+                "RULE_INIT": {
+                    "aborts": 0,
+                    "avgCycles": 25828,
+                    "failures": 0,
+                    "maxCycles": 25828,
+                    "minCycles": 22448,
+                    "priority": 500,
+                    "totalExecutions": 2
+                }
+            },
+            "name": "/Common/_sys_APM_MS_Office_OFBA_Support",
+            "tenant": "Common"
+        },
+        "/Common/_sys_APM_Office365_SAML_BasicAuth": {
+            "events": {
+                "RULE_INIT": {
+                    "aborts": 0,
+                    "avgCycles": 8669,
+                    "failures": 0,
+                    "maxCycles": 8669,
+                    "minCycles": 8550,
+                    "priority": 500,
+                    "totalExecutions": 2
+                }
+            },
+            "name": "/Common/_sys_APM_Office365_SAML_BasicAuth",
+            "tenant": "Common"
+        },
+        "/Common/_sys_APM_activesync": {
+            "events": {
+                "RULE_INIT": {
+                    "aborts": 0,
+                    "avgCycles": 43593,
+                    "failures": 0,
+                    "maxCycles": 43593,
+                    "minCycles": 30734,
+                    "priority": 500,
+                    "totalExecutions": 2
+                }
+            },
+            "name": "/Common/_sys_APM_activesync",
+            "tenant": "Common"
+        },
+        "/Common/_sys_auth_krbdelegate": {
+            "events": {
+                "HTTP_RESPONSE": {
+                    "aborts": 0,
+                    "avgCycles": 0,
+                    "failures": 0,
+                    "maxCycles": 0,
+                    "minCycles": 0,
+                    "priority": 500,
+                    "totalExecutions": 0
+                }
+            },
+            "name": "/Common/_sys_auth_krbdelegate",
+            "tenant": "Common"
+        },
+        "/Common/_sys_auth_ldap": {
+            "events": {
+                "HTTP_REQUEST": {
+                    "aborts": 0,
+                    "avgCycles": 0,
+                    "failures": 0,
+                    "maxCycles": 0,
+                    "minCycles": 0,
+                    "priority": 500,
+                    "totalExecutions": 0
+                }
+            },
+            "name": "/Common/_sys_auth_ldap",
+            "tenant": "Common"
+        },
+        "/Common/_sys_auth_radius": {
+            "events": {
+                "HTTP_REQUEST": {
+                    "aborts": 0,
+                    "avgCycles": 0,
+                    "failures": 0,
+                    "maxCycles": 0,
+                    "minCycles": 0,
+                    "priority": 500,
+                    "totalExecutions": 0
+                }
+            },
+            "name": "/Common/_sys_auth_radius",
+            "tenant": "Common"
+        },
+        "/Common/_sys_auth_ssl_cc_ldap": {
+            "events": {
+                "CLIENT_ACCEPTED": {
+                    "aborts": 0,
+                    "avgCycles": 0,
+                    "failures": 0,
+                    "maxCycles": 0,
+                    "minCycles": 0,
+                    "priority": 500,
+                    "totalExecutions": 0
+                }
+            },
+            "name": "/Common/_sys_auth_ssl_cc_ldap",
+            "tenant": "Common"
+        },
+        "/Common/_sys_auth_ssl_crldp": {
+            "events": {
+                "CLIENT_ACCEPTED": {
+                    "aborts": 0,
+                    "avgCycles": 0,
+                    "failures": 0,
+                    "maxCycles": 0,
+                    "minCycles": 0,
+                    "priority": 500,
+                    "totalExecutions": 0
+                }
+            },
+            "name": "/Common/_sys_auth_ssl_crldp",
+            "tenant": "Common"
+        },
+        "/Common/_sys_auth_ssl_ocsp": {
+            "events": {
+                "CLIENT_ACCEPTED": {
+                    "aborts": 0,
+                    "avgCycles": 0,
+                    "failures": 0,
+                    "maxCycles": 0,
+                    "minCycles": 0,
+                    "priority": 500,
+                    "totalExecutions": 0
+                }
+            },
+            "name": "/Common/_sys_auth_ssl_ocsp",
+            "tenant": "Common"
+        },
+        "/Common/_sys_auth_tacacs": {
+            "events": {
+                "HTTP_REQUEST": {
+                    "aborts": 0,
+                    "avgCycles": 0,
+                    "failures": 0,
+                    "maxCycles": 0,
+                    "minCycles": 0,
+                    "priority": 500,
+                    "totalExecutions": 0
+                }
+            },
+            "name": "/Common/_sys_auth_tacacs",
+            "tenant": "Common"
+        },
+        "/Common/_sys_https_redirect": {
+            "events": {
+                "HTTP_REQUEST": {
+                    "aborts": 0,
+                    "avgCycles": 0,
+                    "failures": 0,
+                    "maxCycles": 0,
+                    "minCycles": 0,
+                    "priority": 500,
+                    "totalExecutions": 0
+                }
+            },
+            "name": "/Common/_sys_https_redirect",
+            "tenant": "Common"
+        }
+    },
+    "telemetryServiceInfo": {
+        "pollingInterval": 60,
+        "cycleStart": "2020-04-16T09:14:38.722Z",
+        "cycleEnd": "2020-04-16T09:14:42.744Z"
+    },
+    "telemetryEventCategory": "systemInfo"
+}
